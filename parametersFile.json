@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newVMName": {
+      "value": "dtl-VM1"
+    },
+    "labName": {
+      "value": "poc-lab"
+    },
+    "Size": {
+      "value": "Standard_D3_v2"
+    },
+    "userName": {
+      "value": "labuser"
+    },
+    "password": {
+      "value": "I@Malabadmin2021"
+    }
+  }
+}
